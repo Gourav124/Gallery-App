@@ -4,7 +4,6 @@
 Fetches the latest photos using Flickr API. Shows photos on the homepage in a clean, Instagram-like layout. Automatically refreshes the feed only when the API response changes. Made a left navbar which contains “Home” as the default option. Uses caching so that images are stored locally. If the app is opened offline, the last viewed homepage and photos are displayed. Once internet reconnects and API data changes, the view updates.
 
 ## Tech Stack
-React Native
 
 React Native Navigation (Drawer Navigation)
 
