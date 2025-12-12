@@ -46,8 +46,7 @@ function HomePage() {
   }, []);
 
   return (
-    <SafeAreaView style={{ flex: 1 }}>
-      <View style={{ flex: 1, padding: 16 }}>
+      <View style={{ flex: 1,padding:16}}>
         {
           loading ?
             <ActivityIndicator size={'large'} color={'#3498db'}/>
@@ -68,7 +67,6 @@ function HomePage() {
             )
         }
       </View>
-    </SafeAreaView>
   );
 }
 
