@@ -1,9 +1,14 @@
 import React from 'react'
-import AppNavigator from './navigation/AppNavigator';
+import DrawerNavigator from './navigation/DrawerNavigator'
+import ScreenNavigator from './navigation/ScreenNavigator'
+import { NavigationContainer } from '@react-navigation/native'
 
 const App = () => {
   return (
-   <AppNavigator/>
+    <NavigationContainer>
+      {/* <DrawerNavigator/> */}
+      <ScreenNavigator/>
+    </NavigationContainer>
   )
 }
 
